@@ -20,19 +20,19 @@ public class SET_HORA_ALARMA {
         this.hora = hora;
         this.minutos = minutos;
     }
-
+    //pone la hora y la incrementa
     public int setHORA() {
         System.out.print("Incrementar hora?");
         hora = in.IncrementH(hora);
         return hora;
     }
-
+    //pone los minutos y la incrementa
     public int setMIN() {
         System.out.print("Incrementar minutos?");
         minutos = in.IncrementM(minutos);
         return minutos;
     }
-
+    //devuelve el toString para mostrar
     @Override
     public String toString() {
         return "SET_HORA_ALARMA{" + "hora=" + hora + ", minutos=" + minutos + '}';

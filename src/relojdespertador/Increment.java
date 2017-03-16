@@ -13,6 +13,7 @@ public class Increment {
 
     public Increment() {
     }
+    //incrementa de uno en uno hasta un limite
     public int IncrementH(int hor){
         hor++;
         System.out.print("incrementando hora");
