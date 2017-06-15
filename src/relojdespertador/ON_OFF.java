@@ -13,8 +13,7 @@ public class ON_OFF {
     boolean OnOff;
     
     public boolean EncendApag(){
-        /*Se pondria un if y un contador para que cadavez que se pulse los
-        impares serian true y los pares false */
+        /*Codigo para activar o descactivar la alarma dependiendo de si el bolleano es true o false*/
         return OnOff;
     }
 }

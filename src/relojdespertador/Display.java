@@ -20,7 +20,7 @@ public class Display {
         SET_HORA_ALARMA alarma = new SET_HORA_ALARMA();
         ON_OFF op = new ON_OFF();
         int opcion = 3;
-
+//Depende del caso que escojamos hace diferentes cosas
         switch (opcion) {
             case 1:  //Configurar Hora
                 hora.setHORA();
@@ -30,7 +30,7 @@ public class Display {
                 alarma.setHORA();
                 alarma.setMIN();
                 hora.toString();
-            case 3://Encender o apagar alarma
+            case 3://Funcionalidad de la alarma
                 op.EncendApag();
 
         }

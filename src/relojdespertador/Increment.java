@@ -13,12 +13,13 @@ public class Increment {
 
     public Increment() {
     }
-    //incrementa de uno en uno hasta un limite
+    //Aumentar Hora
     public int IncrementH(int hor){
         hor++;
         System.out.print("incrementando hora");
         return hor;
     }
+    //Aumnentar Minutos
     public int IncrementM(int min){
         min++;
         System.out.print("incrementando minutos");

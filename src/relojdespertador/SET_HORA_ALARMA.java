@@ -20,19 +20,19 @@ public class SET_HORA_ALARMA {
         this.hora = hora;
         this.minutos = minutos;
     }
-    //pone la hora y la incrementa
+    //Establecer hora y aumentar
     public int setHORA() {
         System.out.print("Incrementar hora?");
         hora = in.IncrementH(hora);
         return hora;
     }
-    //pone los minutos y la incrementa
+    //Establecer minutos y aumentarlos
     public int setMIN() {
         System.out.print("Incrementar minutos?");
         minutos = in.IncrementM(minutos);
         return minutos;
     }
-    //devuelve el toString para mostrar
+    //Muestra la hora con un String
     @Override
     public String toString() {
         return "SET_HORA_ALARMA{" + "hora=" + hora + ", minutos=" + minutos + '}';
