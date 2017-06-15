@@ -7,7 +7,7 @@ package relojdespertador;
 
 /**
  *
- * @author ggarciamartinez
+ * @author Javi
  */
 public class SET_HORA_ALARMA {
 
@@ -22,13 +22,13 @@ public class SET_HORA_ALARMA {
     }
     //Establecer hora y aumentar
     public int setHORA() {
-        System.out.print("Incrementar hora?");
+        System.out.print("Aumentar hora");
         hora = in.IncrementH(hora);
         return hora;
     }
     //Establecer minutos y aumentarlos
     public int setMIN() {
-        System.out.print("Incrementar minutos?");
+        System.out.print("Aumentar minutos");
         minutos = in.IncrementM(minutos);
         return minutos;
     }

@@ -7,7 +7,7 @@ package relojdespertador;
 
 /**
  *
- * @author ggarciamartinez
+ * @author Javi
  */
 public class Display {
 
